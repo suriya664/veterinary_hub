@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors - Veterinary Clinic</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-heartbeat"></i> VetCare
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="index2.html">Home 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                                <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="doctors.html">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="appointments.html">Appointments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center ms-2">
+                            <a class="btn btn-outline me-2" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="btn btn-primary" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Our Doctors</h1>
+            <p>Meet our team of experienced and compassionate veterinarians</p>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?w=400&h=400&fit=crop&crop=faces&auto=format&gravity=face" class="card-img-top" alt="Dr. Sarah Johnson" style="object-position: center 15%;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. Sarah Johnson</h3>
+                            <p class="text-muted">Chief Veterinarian</p>
+                            <p>Dr. Johnson has over 15 years of experience in small animal medicine and surgery. She specializes in internal medicine and preventive care.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, University of Veterinary Medicine</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Board Certified in Internal Medicine</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.pexels.com/photos/4173250/pexels-photo-4173250.jpeg?w=400&h=400&fit=crop&crop=faces" class="card-img-top" alt="Dr. Michael Chen">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. Michael Chen</h3>
+                            <p class="text-muted">Senior Veterinarian</p>
+                            <p>Dr. Chen is a specialist in emergency care and critical medicine. He has extensive experience in trauma surgery and emergency procedures.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, State Veterinary College</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Emergency & Critical Care Specialist</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=faces" class="card-img-top" alt="Dr. Emily Davis">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. Emily Davis</h3>
+                            <p class="text-muted">Veterinarian</p>
+                            <p>Dr. Davis focuses on preventive care and wellness programs. She is passionate about educating pet owners about proper pet care.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, College of Veterinary Medicine</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Preventive Medicine Specialist</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?w=400&h=400&fit=crop&crop=faces" class="card-img-top" alt="Dr. James Wilson">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. James Wilson</h3>
+                            <p class="text-muted">Veterinarian</p>
+                            <p>Dr. Wilson specializes in orthopedic surgery and rehabilitation. He helps pets recover from injuries and surgeries.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, Veterinary Medical School</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Orthopedic Surgery Specialist</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?w=400&h=400&fit=crop&crop=faces" class="card-img-top" alt="Dr. Lisa Anderson">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. Lisa Anderson</h3>
+                            <p class="text-muted">Veterinarian</p>
+                            <p>Dr. Anderson is an expert in dermatology and allergy management. She helps pets with skin conditions and allergies.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, Veterinary University</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Dermatology Specialist</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card doctor-card">
+                        <div class="doctor-image-wrapper">
+                            <img src="https://images.pexels.com/photos/5327655/pexels-photo-5327655.jpeg?w=400&h=400&fit=crop&crop=faces" class="card-img-top" alt="Dr. Robert Martinez">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3>Dr. Robert Martinez</h3>
+                            <p class="text-muted">Veterinarian</p>
+                            <p>Dr. Martinez specializes in exotic animal medicine and provides care for birds, reptiles, and small mammals.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-graduation-cap text-primary me-2"></i> DVM, Veterinary Medical College</li>
+                                <li><i class="fas fa-certificate text-primary me-2"></i> Exotic Animal Medicine Specialist</li>
+                            </ul>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>About Us</h4>
+                    <p>We are a trusted veterinary clinic providing comprehensive care for your pets. Our mission is to ensure the health and happiness of every animal we treat.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="appointments.html">Appointments</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Veterinary Street, City, State 12345</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@vetcare.com">info@vetcare.com</a></li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Follow Us</h4>
+                    <p>Stay connected with us on social media</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <p class="mb-0">&copy; 2025 VetCare. All rights reserved.</p>
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="btn btn-sm btn-outline-light" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon" id="themeIcon"></i> <span id="themeText">Dark Mode</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
